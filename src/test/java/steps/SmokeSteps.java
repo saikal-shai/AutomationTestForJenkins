@@ -14,4 +14,22 @@ public class SmokeSteps {
         System.out.println("Everybody can see");
 
     }
+    @Given("i run cucumber test")
+    public void i_run_cucumber_test() {
+        for (int i = 0; i < 100; i++) {
+            System.out.println("This is cucumber test!");
+
+        }
+    }
+    @Then("verify this is cucumber")
+    public void verify_this_is_cucumber() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Thi is cool");
+
+        }
+
+    }
+
+
+
 }
